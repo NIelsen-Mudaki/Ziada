@@ -1,8 +1,10 @@
 body{
     background-color: blueviolet;
+}
+.container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
 .card{
     background-color: #f5f5f5;
@@ -25,14 +27,16 @@ body{
     width: 95%;
     height: 50px;
     margin-top: 30px;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 .card-button{
     width: 350px;
     height: 40px;
-    background-color: blueviolet;
-    color: white;margin-top: 40px;
-    border-style: none;
+    background-color: #f5f5f5;
+    color: blueviolet;
+    margin-top: 40px;
+    border: 1px solid;
+    border-radius: 15px;
 }
 h1{
     color: #c7832b;
@@ -40,5 +44,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 .card-button:hover{
+    background-color: blueviolet;
+    color: white;
     opacity: 0.8;
 }
